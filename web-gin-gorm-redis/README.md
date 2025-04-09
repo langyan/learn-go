@@ -22,4 +22,5 @@
 - docker-compose up -d  # 重新启动服务
 
 ## docker
-- docker exec -it mysql8-container mysql -uroot -p  #尝试从容器内部连接MySQL
+- docker exec -it mysql-container mysql -uroot -p  #尝试从容器内部连接MySQL
+- docker restart mysql-container  # 重启
